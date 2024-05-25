@@ -15,7 +15,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { Link as RouterLink } from 'react-router-dom';
-import logo from '../assets/bulbabooks_logo.jpg'; // Import the logo image
+import logo from '../assets/bulbabooks_logo.jpg';
 import theme from '../theme';
 
 
@@ -58,7 +58,7 @@ const tiers = [
     ],
     buttonText: 'Get started',
     buttonVariant: 'contained',
-    to: "/"
+    to: "/checkout"
   },
   {
     title: 'Enterprise',
