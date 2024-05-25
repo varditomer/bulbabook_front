@@ -13,6 +13,7 @@ import TextField from '@mui/material/TextField';
 import Typography, { TypographyProps } from '@mui/material/Typography';
 import * as React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
+import bulbabookBackground from '../../assets/bulbabooks_logo.jpg'
 
 function Copyright(props: TypographyProps) {
   return (
@@ -50,7 +51,7 @@ export default function SignInSide() {
           sm={4}
           md={7}
           sx={{
-            backgroundImage: 'url(/src/assets/bulbabooks_logo.jpg)',
+            backgroundImage: `url(${bulbabookBackground})`,
             backgroundRepeat: 'no-repeat',
             backgroundColor: (t) =>
               t.palette.mode === 'light' ? t.palette.grey[50] : t.palette.grey[900],
